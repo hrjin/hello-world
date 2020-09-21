@@ -16,7 +16,7 @@ public class WelcomeController {
     @GetMapping(value = {"/welcome", "/"})
     public ModelAndView getWelcome(){
         ModelAndView mv = new ModelAndView();
-        mv.addObject("myName", "hrjin");
+        mv.addObject("myName", "hrjin~~");
 
         SimpleDateFormat format1 = new SimpleDateFormat ( "yyyy-MM-dd");
         SimpleDateFormat format2 = new SimpleDateFormat ( "HH:mm:ss");
